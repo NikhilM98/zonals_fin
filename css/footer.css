@@ -1,0 +1,12 @@
+.asliFooter{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, #b25757 , #51314a);
+}
+.myFooter{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 30px 25px 0px 25px;
+    margin: 0px;
+    color: white;
+}

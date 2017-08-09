@@ -1,0 +1,129 @@
+@media (max-width: 1440px){
+    .myFormCover{
+        height: 60vh;  
+		width:60vh;	
+    }
+    .divShadow{
+        width:auto;
+    }
+    .myForm {
+        height: 60vh;  
+		width:60vh;	
+    }
+    .imageZonal{
+        left: 50%;
+        top: 55%;
+        max-width: 60%;
+    }
+    .iitR{
+        top: 15%;
+        right: 5%;
+    }
+    .thomsoTop{
+        top: 15%;
+        left: 15%;
+    }
+}
+@media (max-width: 1024px){
+    .myFormCover{
+        height: 60vh;  
+		width:50vh;	
+    }
+    .divShadow{
+        width:auto;
+    }
+    .myForm {
+        height: 60vh;  
+		width:50vh;	
+    }
+}
+@media (max-width: 767px){
+    .thomsoTop{
+        left: 20%;
+    }
+    .myButt{
+        width: 180px ;
+    }
+    .myFormCover{
+        height: 60vh;
+		width:60vh;	
+    }
+    .divShadow{
+        width:60vh;
+    }
+    .myForm {
+        height: 60vh;  
+		width:60vh;	
+    }
+}
+@media (max-width: 600px){
+    /*Image Zonal*/
+    .imageZonal{
+        left: 50%;
+        top: 55%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* For Logos */
+    .iitR{
+        height: 50px;
+        width: 50px;
+        right: 2%;
+    }
+    .thomsoTop{
+        left: 20%;
+        height: 60px;
+        width: 120px;
+    }
+
+    /* For middle.css */
+    .regiHead{
+        font-size: 2.5em;
+    }
+    .regiCont{
+        font-size: 1em;
+    }
+    .myButt{
+        width: 200px ;
+    }
+
+    /* For Form */
+    .formMain{
+        padding-top: 0px;
+    }
+    .hiddenDiv{
+        display: block;
+    }
+    .myFormCover{
+        height: 50vh;  
+		width:50vh;	
+    }
+    .divShadow{
+        width:50vh;
+    }
+    .myForm {
+        height: 70vh;  
+		width:50vh;	
+    }
+    .formImg {
+        width: 25vh;
+    }
+}
+@media (max-width: 370px){
+    .eventNames{
+        font-size: 1.5em;
+    }
+    .options{
+        font-size: 1.25em;
+    }
+    .inner:hover{
+        zoom:1.3;
+    }
+    .events{
+        font-size: 1.8em;
+    }
+    .check{
+        height: 6.5em;
+    }
+}

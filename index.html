@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thomso'17 Zonals</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/top.css" />
+        <link rel="stylesheet" type="text/css" href="css/middle.css" />
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/mediaque.css" />
+        <script src="js/middle.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/form.js"></script>
+        
+    </head>
+    <body style="background-color: pink;overflow-x: hidden; box-sizing:border-box;">
+        
+        <!-- Top Div -->
+        <div class="megaContainerTop">
+			<div class="iitR"></div>
+			<div class="thomsoTop"></div>
+            
+			<img src="img/hawa.png" class="imageZonal" />
+            <div id="one" class="imageBackground oneCol">
+            </div>
+            <div id="two" class="imageBackground twoCol">
+            </div>
+        </div>
+        <script src="js/top.js"></script>
+
+        <!-- Second Div -->
+        <div class="middleBack row" id="intro">
+			<div class="left col-sm-4">
+				<div class="leftImgC animated fadeInLeft">
+			    	<div class="leftImage" >
+						<p class="events">60 seconds to fame</p>
+						<a href="#badiBakchodi" id="fame" class="btn myButt">View Rulebook</a>
+					</div>
+				</div>
+				<div class="leftImgC animated fadeInLeft">
+	    			<div class="leftImage">
+						<p class="events">Creative Writing</p>
+						<a href="#badiBakchodi" id="creative" class="btn myButt">View Rulebook</a>
+					</div>
+				</div>
+				<div class="leftImgC animated fadeInLeft">
+				    <div class="leftImage">
+						<p class="events">Mr. &amp; Ms. Thomso</p>
+						<a href="#badiBakchodi" id="mrthomso" class="btn myButt">View Rulebook</a>
+					</div>
+				</div>
+			</div>
+		    <div id="badiBakchodi" class="middle col-sm-8">
+				<div id="bakwaasInfo" class="middleContent animated fadeInRight">
+					<p class="regiHead"> Registration for Thomso'17 Zonals</p>
+					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
+					<a href="#formMain" class="btn myButton">Register Now</a>
+				</div>
+				<div id="fameInfo" class="middleContent gayab">
+					<p class="regiHead"> One</p>
+					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
+					<a href="" target="_blank" class="btn myButton">Register Now</a>
+				</div>
+				<div id="creativeInfo" class="middleContent gayab">
+					<p class="regiHead"> Two</p>
+					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
+					<a href="" target="_blank" class="btn myButton">Register Now</a>
+				</div>
+				<div id="mrthomsoInfo" class="middleContent gayab">
+					<p class="regiHead"> Three</p>
+					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
+					<a href="" target="_blank" class="btn myButton">Register Now</a>
+				</div>			
+			</div>		
+		</div>
+		<!-- Registration Page -->
+		<div class="hiddenDiv"></div>
+        <div id="formMain" class="formMain">
+	 	     <div class="divShadow">
+ 			 	<div class="myFormCover formOne">
+ 			 		<img class="img-responsive formImg" alt="Registration Form" src="img/sun.png">
+ 			 		<p class="formOneText">THOMSO 17</p>
+ 			 	</div>
+ 			 	<div class="myForm formTwo" id="page1">
+ 			 			<form class="formalize">
+ 			 				<input class="formInput" type="text"  placeholder="Your name" />
+ 			 				<input class="formInput" type="email"  placeholder="Your Email-Id" />
+ 			 				<input class="formInput" type="number" name="quantity" min="1" max="10" placeholder="Contact Number" />
+ 			 				<input class="formInput" type="text" placeholder="Branch and Year" />
+ 			 				<input id="next" class="commonButton buttonOne" type="button" value="Next">
+ 			 			</form>
+				</div>
+				<div class="myForm formThree hidden" id="page2">
+                    <!--<p class="heading">Events</p>-->
+                    <div class="outer">
+                        <p class="eventNames">First Event</p>
+                        <div class="check">
+                            <div class="inner">
+                                <input type="checkbox" class="checkbox" name=""><span class="options">Singing </span>
+                            </div>
+                            <div class="inner">
+                                <input type="checkbox" name=""><span class="options">Dancing</span>
+                            </div>
+                        </div> 
+                    </div>            
+                    <div class="outer">
+                        <p class="eventNames">Second Event</p>
+                        <div class="check">
+                            <div class="inner">
+                                <input type="checkbox" class="checkbox" name=""><span class="options">Stand-up </span>
+                            </div>
+                            <div class="inner">
+                                <input type="checkbox" name=""><span class="options">Solo</span>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="buttonFlex">    
+                        <input id="back" class="commonButton" type="button" value="Back">
+                        <input class="commonButton" type="submit" value="Submit">
+                    </div> 
+                </div>
+			</div>
+		</div>
+		<!-- Footer Starts Here -->
+		<footer class="asliFooter">
+        	<div class="container myFooter" id="footer">
+            	<div class="row">
+                	<div class="col-sm-3">
+						<h4>Address</h4>
+						<p>THOMSO Office<br />
+						Multi Activity Centre<br />
+						Indian Institute of Technology Roorkee<br />
+						Roorkee - 247667</p>
+						<br />
+					</div>
+					<div class="col-sm-3 col-sm-offset-1">
+						<h4>Follow Us</h4>
+						<a href="https://www.facebook.com/thomsoiitroorkee/" class="icons-thomso" target="_blank"><i class="fa fa-facebook" style="font-size: 26px;"></i></a>
+						<a href="https://twitter.com/thomso_iitr" target="_blank" class="icons-thomso"><i class="fa fa-twitter" style="font-size: 26px; margin-left: 6px;"></i></a>
+						<a href="https://www.youtube.com/channel/UCjxGpbU9X2TspaJYaiTyOpQ" class="icons-thomso" target="_blank"><i class="fa fa-youtube" style="font-size: 26px; margin-left: 6px;"></i></a>
+						<p>info@thomso.in<br>
+						thomso@iitr.ac.in</p>
+						<br />
+					</div>
+					<div class="col-sm-5">
+						<h4>Contact</h4>
+						<div class="row">
+							<div class="col-sm-4">
+                                <p>Ankit Mourya<br />
+                                +91-9557944407</p>
+							</div>
+							<div class="col-sm-4">
+                                <p>Jayesh<br />
+                                +91-9782599110</p>
+							</div>
+                            <div class="col-sm-4">
+                                <p>Ashutosh<br />
+                                +91-7766836776</p>
+							</div>
+						</div>
+					</div>
+            	</div>
+        	</div>
+    	</footer>			
+    </body>
+    
+</html>
+

@@ -1,0 +1,137 @@
+.middleBack{
+    margin: 0px;
+    padding: ;
+    background-image: url('../img/back1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Left */
+.left{
+    /*background:url('../img/l1.png');*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftImgC{
+    text-align: center;
+    display: flex;
+    background-color: rgba(67, 127, 167, 0.4);
+    align-items: center;
+    justify-content: space-around;
+    height:24vh;
+    width: 75%;
+    border-radius: 20px;
+}
+.leftImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url('../img/test1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;*/
+    border-radius: 15px;
+    height: 80%;
+    width: 92%;
+    /*border: white solid 1px;*/
+}
+.events{
+  opacity:1 !important;
+  color:white;
+  font-size: 2em;
+}
+
+.myButt{
+    color: #ffffff;
+    background-color: rgba(26, 185, 214, 0.37);
+    border-color: #b6c0ca;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 0px;
+    transition: font-size 0.05s ease-out;
+    width: 200px;
+}
+.myButt:hover, .myButton:focus, .myButton:active, .myButton.active, .open .dropdown-toggle.myButton {
+    color: #065992;
+    font-size: 18px;
+    background-color: rgba(161, 184, 197, 0.65);
+    border-color: #2e88b5;
+}
+
+
+/* Middle */
+.middle{
+    /*background-image:url('../img/l2.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-color: ;*/
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px 0px 0px;
+}
+.middleContent{
+    display: flex;
+    padding: 25px;
+    height:85vh;
+    width: 95%;
+    background-color: rgba(67, 127, 167, 0.6);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.regiHead{
+  font-size: 3.4em;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.regiCont{
+  font-size: 1.5em;
+  text-align: left;
+  color: white;
+}
+
+.myButton{
+    color: #ffffff;
+    background-color: rgba(145, 191, 226, 0.48);
+    border: solid 2px #d3f1ff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    transition: font-size 0.05s ease-out;
+    width: 250px;
+}
+.myButton:hover, .myButton.rulesMid:focus, .myButton:active, .myButton.active, .open .dropdown-toggle.myButton {
+    color: #004b77;
+    font-size: 18px;
+    background-color: rgba(132, 239, 241, 0.3);
+    border-color: #006eaf;
+}
+
+.gayab{
+  display: none;
+}

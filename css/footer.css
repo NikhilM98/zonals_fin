@@ -1,7 +1,7 @@
 .asliFooter{
     display: flex;
     justify-content: center;
-    background: linear-gradient(to left, #b25757 , #51314a);
+    background: #42484a;
 }
 .myFooter{
     font-family: 'Raleway', sans-serif;
@@ -9,4 +9,10 @@
     padding: 30px 25px 0px 25px;
     margin: 0px;
     color: white;
+}
+.icons-thomso, .icons-thomso:visited{
+  color: white;
+}
+.icons-thomso:hover, .icons-thomso:active, .icons-thomso:focus {
+	color: #7e7e7e !important;
 }

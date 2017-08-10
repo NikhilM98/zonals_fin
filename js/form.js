@@ -47,11 +47,7 @@ window.addEventListener("load",function() {
 
 $(window).resize(function()
 {
-
    var vw = $(window).width();
-
    var vh = $(window).height();
-
-   //do your layout change here.
 
 });

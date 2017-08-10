@@ -48,9 +48,9 @@ window.addEventListener("load",function() {
 $(window).resize(function()
 {
 
-   var vw = $(window).width();
+   var viewportWidth = $(window).width();
 
-   var vh = $(window).height();
+   var viewportHeight = $(window).height();
 
    //do your layout change here.
 

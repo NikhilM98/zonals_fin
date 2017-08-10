@@ -36,7 +36,7 @@
 .leftImage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /*background-image: url('../img/test1.jpg');
     background-repeat: no-repeat;
@@ -62,12 +62,12 @@
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 15px;
-    font-size: 17px;
-    padding: 6px 0px;
+    font-size: 20px;
+    padding: 20px 20px;
     transition: 0.3s ease-out;
-    width: 140px;
+    width: 200px;
 }
-.myButt:hover, .myButton:focus, .myButton:active, .myButton.active, .open .dropdown-toggle.myButton {
+.myButt:hover, .myButt:focus, .myButt:active, .myButt.active, .open .dropdown-toggle.myButt {
     color: rgba(39, 113, 85, 0.78);
     background-color: #ffffff;
     border-color: #277155;
@@ -112,6 +112,12 @@
   color: white;
 }
 
+.rowButton{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .myButton{
     color: #ffffff;
     background-color: rgba(39, 113, 85, 0.78);
@@ -124,8 +130,29 @@
     padding: 20px 40px;
     transition: 0.3s ease-out;
     width: 250px;
+    margin-bottom: 15px;
 }
-.myButton:hover, .myButton.rulesMid:focus, .myButton:active, .myButton.active, .open .dropdown-toggle.myButton {
+.myButton:hover, .myButton:focus, .myButton:active, .myButton.active, .open .dropdown-toggle.myButton {
+    color: rgba(39, 113, 85, 0.78);
+    background-color: #ffffff;
+    border-color: #277155;
+}
+
+.myButtRules{
+    color: #ffffff;
+    background-color: rgba(39, 113, 85, 0.78);
+    border-color: #277155;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 20px;
+    transition: 0.3s ease-out;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.myButtRules:hover, .myButtRules:focus, .myButtRules:active, .myButtRules.active, .open .dropdown-toggle.myButtRules {
     color: rgba(39, 113, 85, 0.78);
     background-color: #ffffff;
     border-color: #277155;

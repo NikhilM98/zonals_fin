@@ -42,16 +42,19 @@ window.addEventListener("load",function() {
     }, 0);
 });
 
-
-
-
 $(window).resize(function()
 {
 
-   var viewportWidth = $(window).width();
+   var vw = $(window).width();
 
-   var viewportHeight = $(window).height();
+   var vh = $(window).height();
 
    //do your layout change here.
 
 });
+
+
+var isAndroid = navigator.userAgent.toLowerCase().indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(isAndroid) {
+    document.write('<meta name="viewport" content="width=device-width,height='+window.innerHeight+', initial-scale=1.0">');
+}

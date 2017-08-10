@@ -40,6 +40,11 @@
     .eventNames{
         font-size: 1.6em;
     }
+    .myButt {
+        font-size: 17px;
+        padding: 6px 0px;
+        width: 140px;
+    }
 }
 @media (max-width: 1024px){
     .myFormCover{
@@ -56,13 +61,15 @@
     .eventNames{
         font-size: 1.4em;
     }
+    .myButtRules, .myButton {
+        font-size: 16px;
+        padding: 20px 10px;
+        width: 225px
+    }
 }
 @media (max-width: 767px){
     .thomsoTop{
         left: 20%;
-    }
-    .myButt{
-        width: 180px ;
     }
     .myFormCover{
         height: 60vh;
@@ -77,6 +84,9 @@
     }
     .eventNames{
         font-size: 1.8em;
+    }
+    .middleBack {
+        padding: 0px;
     }
 }
 @media (max-width: 600px){
@@ -99,6 +109,11 @@
         height: 60px;
         width: 120px;
     }
+    .rowButton{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
     /* For middle.css */
     .regiHead{
@@ -107,9 +122,7 @@
     .regiCont{
         font-size: 1em;
     }
-    .myButt{
-        width: 200px ;
-    }
+
 
     /* For Form */
     .formMain{

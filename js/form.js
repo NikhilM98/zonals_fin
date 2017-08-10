@@ -41,3 +41,8 @@ window.addEventListener("load",function() {
         window.scrollTo(0, 1);
     }, 0);
 });
+
+
+function onResize(){
+      $('body').css("height", page_height);
+  }

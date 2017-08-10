@@ -100,6 +100,9 @@ display: none;
         max-width: 100%;
         width: 100%;
     }
+    .formInput{
+      font-size: .7em;
+    }
 
     /* For Logos */
     .iitR{
@@ -161,5 +164,8 @@ display: none;
     }
     .events{
         font-size: 1.8em;
+    }
+    .formInput{
+      font-size: .7em;
     }
 }

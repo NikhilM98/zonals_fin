@@ -88,7 +88,7 @@ setInterval(function() {
 
 
 
-var colour=["#2980b9", "#95a5a6", "#2cc990", "#DEB887"];
+var colour=["#95a5a6", "#2cc990", "#DEB887", "#2980b9"];
 var counter = 0;
 
 init();
@@ -127,6 +127,6 @@ function fade() {
     };
 }
 
-setInterval(fade, 5000);
+setInterval(fade, 10000);
 
 

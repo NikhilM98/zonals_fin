@@ -88,7 +88,7 @@ setInterval(function() {
 
 
 
-var colour=["red","orange", "pink", "purple", "cyan"];
+var colour=["#2980b9", "#95a5a6", "#2cc990", "#DEB887"];
 var counter = 0;
 
 init();
@@ -119,7 +119,7 @@ function fade() {
     else {
         console.log('Error');
     };
-    if ( counter < 4 ) {
+    if ( counter < 3 ) {
         counter += 1;
     }
     else {
@@ -127,6 +127,6 @@ function fade() {
     };
 }
 
-setInterval(fade, 10000);
+setInterval(fade, 5000);
 
 

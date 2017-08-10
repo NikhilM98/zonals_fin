@@ -12,15 +12,18 @@
 		<link rel="stylesheet" type="text/css" href="css/form.css" />
 		<link rel="stylesheet" type="text/css" href="css/footer.css" />
 		<link rel="stylesheet" type="text/css" href="css/mediaque.css" />
+		<link rel="stylesheet" type="text/css" href="css/scroll.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="js/middle.js"></script>
         <script src="js/scroll.js"></script>
         <script src="js/form.js"></script>
         
     </head>
-    <body style="background-color: pink;overflow-x: hidden; box-sizing:border-box;">
+    <body style="overflow-x: hidden; box-sizing:border-box;">
         
         <!-- Top Div -->
         <div class="megaContainerTop">
+			<span class="scroll-btn"><a href="#hailThomso"><span class="mouse"><span></span></span></a></span>
 			<div class="iitR"></div>
 			<div class="thomsoTop"></div>
             
@@ -38,23 +41,23 @@
 				<div class="leftImgC animated fadeInLeft">
 			    	<div class="leftImage" >
 						<p class="events">60 seconds to fame</p>
-						<a href="#badiBakchodi" id="fame" class="btn myButt">View Rulebook</a>
+						<a href="#hailThomso" id="fame" class="btn myButt">View More</a>
 					</div>
 				</div>
 				<div class="leftImgC animated fadeInLeft">
 	    			<div class="leftImage">
 						<p class="events">Creative Writing</p>
-						<a href="#badiBakchodi" id="creative" class="btn myButt">View Rulebook</a>
+						<a href="#hailThomso" id="creative" class="btn myButt">View More</a>
 					</div>
 				</div>
 				<div class="leftImgC animated fadeInLeft">
 				    <div class="leftImage">
 						<p class="events">Mr. &amp; Ms. Thomso</p>
-						<a href="#badiBakchodi" id="mrthomso" class="btn myButt">View Rulebook</a>
+						<a href="#hailThomso" id="mrthomso" class="btn myButt">View More</a>
 					</div>
 				</div>
 			</div>
-		    <div id="badiBakchodi" class="middle col-sm-8">
+		    <div id="hailThomso" class="middle col-sm-8">
 				<div id="bakwaasInfo" class="middleContent animated fadeInRight">
 					<p class="regiHead"> Registration for Thomso'17 Zonals</p>
 					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
@@ -63,7 +66,7 @@
 				<div id="fameInfo" class="middleContent gayab">
 					<p class="regiHead"> One</p>
 					<p class="regiCont">This year Thomso, the annual youth festival of Indian Institute of Technology Roorkee, is coming to your city with its Zonals. Thomso'17 will be organising multiple events in your city. Grab this absolutely amazing opportunity to showcase your talent at one of the greatest and the grandest youth festivals of India.</p>
-					<a href="" target="_blank" class="btn myButton">Register Now</a>
+					<div class="rowButton"><a href="#formMain" class="btn myButton">Register Now</a><a href="#formMain" class="btn myButton">Register Now</a></div>
 				</div>
 				<div id="creativeInfo" class="middleContent gayab">
 					<p class="regiHead"> Two</p>
@@ -82,22 +85,23 @@
         <div id="formMain" class="formMain">
 	 	     <div class="divShadow">
  			 	<div class="myFormCover formOne">
- 			 		<img class="img-responsive formImg" alt="Registration Form" src="img/sun.png">
+ 			 		<img class="img-responsive formImg" alt="Registration Form" src="img/unicorn.png">
  			 		<p class="formOneText">THOMSO 17</p>
  			 	</div>
  			 	<div class="myForm formTwo" id="page1">
  			 			<form class="formalize">
- 			 				<input class="formInput" type="text"  placeholder="Your name" />
+ 			 				<input class="formInput" type="text"  placeholder="Your Name" />
  			 				<input class="formInput" type="email"  placeholder="Your Email-Id" />
- 			 				<input class="formInput" type="number" name="quantity" min="1" max="10" placeholder="Contact Number" />
- 			 				<input class="formInput" type="text" placeholder="Branch and Year" />
+ 			 				<input class="formInput" type="number" name="quantity" maxlength="10" placeholder="Contact Number" />
+							<input class="formInput" type="text" placeholder="College Name" />  
+							  <input class="formInput" type="text" placeholder="Branch and Year" />
  			 				<input id="next" class="commonButton buttonOne" type="button" value="Next">
  			 			</form>
 				</div>
 				<div class="myForm formThree hidden" id="page2">
                     <!--<p class="heading">Events</p>-->
                     <div class="outer">
-                        <p class="eventNames">First Event</p>
+                        <p class="eventNames">Thomso's Got Talent</p>
                         <div class="check">
                             <div class="inner">
                                 <input type="checkbox" class="checkbox" name=""><span class="options">Singing </span>
@@ -109,12 +113,9 @@
                     </div>            
                     <div class="outer">
                         <p class="eventNames">Second Event</p>
-                        <div class="check">
+                        <div class="check2">
                             <div class="inner">
-                                <input type="checkbox" class="checkbox" name=""><span class="options">Stand-up </span>
-                            </div>
-                            <div class="inner">
-                                <input type="checkbox" name=""><span class="options">Solo</span>
+                                <input type="checkbox" class="checkbox" name=""><span class="options">Nukkad Natak</span>
                             </div>
                         </div> 
                     </div>

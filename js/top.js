@@ -88,7 +88,7 @@ setInterval(function() {
 
 
 
-var colour=["#95a5a6", "#2cc990", "#DEB887", "#2980b9"];
+var colour=["#2c9977", "#D24D57", "#FAA945","#2980b9"];
 var counter = 0;
 
 init();
@@ -100,7 +100,7 @@ function init() {
 }
 
 function fade() {
-    console.log(counter);
+  
     if ($("#one").hasClass("fadeInRight")) {
         $("#two").css("z-index", "2");
         $("#one").css("z-index", "1");
@@ -127,6 +127,4 @@ function fade() {
     };
 }
 
-setInterval(fade, 10000);
-
-
+setInterval(fade, 5000);

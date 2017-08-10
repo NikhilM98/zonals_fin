@@ -32,18 +32,22 @@
     height:24vh;
     width: 75%;
     border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
 }
 .leftImage{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
     /*background-image: url('../img/test1.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;*/
-    border-radius: 15px;
+    border-radius: 10px;
     height: 80%;
     width: 92%;
     /*border: white solid 1px;*/
@@ -88,6 +92,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 0px 0px 0px 0px;
+
 }
 .middleContent{
     display: flex;
@@ -99,6 +104,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    -webkit-box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 12px 1px rgba(0,0,0,0.2);
+    opacity: 0.8;
 }
 .regiHead{
   font-size: 3em;

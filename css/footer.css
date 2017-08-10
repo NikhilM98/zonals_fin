@@ -3,6 +3,12 @@
     justify-content: center;
     background: #42484a;
 }
+
+.asliFooter p{
+  letter-spacing: 1px;
+}
+
+
 .myFooter{
     font-family: 'Raleway', sans-serif;
     text-align: center;

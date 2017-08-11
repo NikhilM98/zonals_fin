@@ -43,6 +43,13 @@ window.addEventListener("load",function() {
 });
 
 
-function onResize(){
-      $('body').css("height", page_height);
-  }
+$(window).resize(function()
+ {
+
+    var vw = $(window).width();
+
+    var vh = $(window).height();
+
+    //do your layout change here.
+
+  });

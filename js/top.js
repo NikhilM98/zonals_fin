@@ -88,7 +88,7 @@ setInterval(function() {
 
 
 
-var colour=["#2c9977", "#D24D57", "#FAA945","#2980b9"];
+var colour=["#2c9977", "#CE635D", "#E29C45","#2980b9"];
 var counter = 0;
 
 init();
@@ -100,7 +100,7 @@ function init() {
 }
 
 function fade() {
-  
+
     if ($("#one").hasClass("fadeInRight")) {
         $("#two").css("z-index", "2");
         $("#one").css("z-index", "1");

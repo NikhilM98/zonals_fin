@@ -78,15 +78,23 @@ setInterval(function() {
 
 
 
+var
+    images = [ "img/b-1.png", "img/b-2.png", "img/b-3.png" ] //the list of images
+   imgToCHange = document.getElementById( 'one' )
+  , interval = 5000 //in ms
+  ;
+
+setInterval( function(){
+  images.unshift( images.pop() );
+  imgToCHange.src = images[0];
+ }, interval );
 
 
 
 
 
 
-
-
-
+/*
 
 var colour=["#2c9977", "#CE635D", "#E29C45","#2980b9"];
 var counter = 0;
@@ -128,3 +136,6 @@ function fade() {
 }
 
 setInterval(fade, 5000);
+
+
+*/
